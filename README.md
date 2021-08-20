@@ -2,7 +2,7 @@
 This is our submision code in DCASE2021 task5. <br/>
 We use transductive inference for few shot learning, which maximizes the mutual information between the query features and their label predictions for a given few-shot task, in conjunction with a supervision loss based on the support set. Furthermore, we propose a mutual learning framework, which makes feature extractor and classifier to help each other.<br/>
 
-<img src="picture/1.PNG" alt="network" title="framework"> <br/>
+<img src="picture/2.PNG" alt="network" title="framework"> <br/>
 
 #### How to run it?
 ##### First step
@@ -25,6 +25,6 @@ We must admit this work is our first try to few-shot event detection, there too 
 
 ##### Reference
 Our code are based following code. <br/>
-https://github.com/c4dm/dcase-few-shot-bioacoustic
+https://github.com/c4dm/dcase-few-shot-bioacoustic <br/>
 https://github.com/mboudiaf/TIM
 
