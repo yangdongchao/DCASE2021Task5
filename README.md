@@ -6,7 +6,7 @@ We use transductive inference for few shot learning, which maximizes the mutual 
 
 #### How to run it?
 ##### First step
-Please follow the offical code of DCASE2021 task5, to extract the feature,and save it. Because our code are based the offical code, so you can directly use the feature extracted from offical baseline, or you can directly use our offered feature. <br/>
+Please follow the offical code of DCASE2021 task5, to extract the feature,and save it. Because our code are based the offical code, so you can directly use the feature extracted from offical baseline, or you can directly use our offered feature. We plan to offer our extracted feature on google drive soon. <br/>
 When you get the mel-feature, please set the true path on config.yaml file <br/>
 
 ##### Second step
@@ -30,5 +30,5 @@ https://github.com/c4dm/dcase-few-shot-bioacoustic <br/>
 https://github.com/mboudiaf/TIM
 
 ##### Cite
-We have plan to submit our paper to ICASSP2022, and our paper will fisrt submit to arxiv soon. If you feel the code is useful for your research, please cite it and START our code.
+We have plan to submit our paper to ICASSP2022, and our paper will fisrt submit to arxiv soon. If you feel the code is useful for your research, please cite it and STAR our code.
 
