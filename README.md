@@ -15,7 +15,8 @@ bash evaluate.sh <br/>
 after that you can get the results.
 
 ##### NOTE
-As our paper describe, our methods have a lot of hyper-parameter, we do not spend a lot of time to find the best hyper-parameters<br/>. we also provide part of our training model. If you cannot get best results when you train your model, please try to tune the parameter *self.iter* in tim.py file. As our experiments, if you use our ML framework, this parameter may not offer too much effect to final results, but if you only use transductive learning methods, this parameters is very import. <br/>
+As our paper describe, our methods have a lot of hyper-parameter, we do not spend a lot of time to find the best hyper-parameters.<br/> we also provide part of our training model. If you cannot get best results when you train your model, please try to tune the parameter *self.iter* in tim.py file. As our experiments, if you use our ML framework, this parameter may not offer too much effect to final results, but if you only use transductive learning methods, this parameters is very import. <br/>
+We belive if you carefully choose the hyper-parameters, you can get better results than our paper. The validatation set is small, so the results will has a little different if you run many times.
 
 ##### How to use ML framework?
 In main.py file, you can find *iter_num = 0* paramter, when iter_num = 0, it indicate we do not update feature extractor, so it means do not use ML framework. iter_num > 0 indicate the times we update feature extractor. <br/>
@@ -27,4 +28,7 @@ We must admit this work is our first try to few-shot event detection, there too 
 Our code are based following code. <br/>
 https://github.com/c4dm/dcase-few-shot-bioacoustic <br/>
 https://github.com/mboudiaf/TIM
+
+##### Cite
+We have plan to submit our paper to ICASSP2022, and our paper will fisrt submit to arxiv soon. If you feel the code is useful for your research, please cite it and START our code.
 
