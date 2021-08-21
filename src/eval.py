@@ -280,6 +280,7 @@ class Evaluator:
             loss_clr = -torch.log(torch.exp(p_t/T_t)/fenmu)
             loss_w = 0.6*torch.cosine_similarity(W_mean[0],pos_w,dim=0) - 0.4*torch.cosine_similarity(W_mean[0],neg_w_wi,dim=0)
             loss = 0.7*loss_ce + 0.3*loss_w # thoese hyper parameter you can set by your self
+            #loss = 0.5*loss_ce + 0.5*loss_clr # thoese hyper parameter you can set by your self
             optimizer.zero_grad()
             loss.backward()
             optimizer.step()
