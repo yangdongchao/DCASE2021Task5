@@ -282,7 +282,7 @@ def main(conf : DictConfig):
         ckpt_path = '/home/ydc/DACSE2021/sed-tim-base/pre_best'
         hop_seg = int(conf.features.hop_seg * conf.features.sr // conf.features.hop_mel) # 0.05*22050//256 == 4
         k_q = 128
-        iter_num = 1 # change wether use ML framework
+        iter_num = 0 # change wether use ML framework
         for feat_file in all_feat_files:
             feat_name = feat_file.split('/')[-1]
             audio_name = feat_name.replace('h5','wav')
@@ -354,7 +354,7 @@ def main(conf : DictConfig):
         #ckpt_path = '/home/ydc/DACSE2021/sed-tim-base/pre_best'
         hop_seg = int(conf.features.hop_seg * conf.features.sr // conf.features.hop_mel) # 0.05*22050//256 == 4
         k_q = 128
-        iter_num = 1
+        iter_num = 0
         for feat_file in all_feat_files:
             print('file name ',feat_file)
             feat_name = feat_file.split('/')[-1]
