@@ -1,5 +1,5 @@
 ## Paper
-We have submit our paper to ICASSP2022, you can see it on arxiv now! <a href="https://arxiv.org/abs/2110.04474" title="A Mutual learning framework for Few-shot Sound Event Detection">A Mutual learning framework for Few-shot Sound Event Detection</a> 
+The paper has been accepted by ICASSP2022, you can see it on arxiv now! <a href="https://arxiv.org/abs/2110.04474" title="A Mutual learning framework for Few-shot Sound Event Detection">A Mutual learning framework for Few-shot Sound Event Detection</a> 
 ## DCASE2021 task5 code
 This is our submision code in DCASE2021 task5. <br/>
 We use transductive inference for few shot learning, which maximizes the mutual information between the query features and their label predictions for a given few-shot task, in conjunction with a supervision loss based on the support set. Furthermore, we propose a mutual learning framework, which makes feature extractor and classifier to help each other.<br/>
