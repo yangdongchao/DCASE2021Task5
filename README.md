@@ -32,6 +32,6 @@ https://github.com/c4dm/dcase-few-shot-bioacoustic <br/>
 https://github.com/mboudiaf/TIM
 
 ##### Cite
-We have plan to submit our paper to ICASSP2022, and our paper will fisrt submit to arxiv soon. If you feel the code is useful for your research, please cite it and STAR our code.
+
 
 
